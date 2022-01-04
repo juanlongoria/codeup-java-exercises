@@ -1,7 +1,15 @@
 import java.util.Scanner;
 
-//12/15
+
 public class Warmups {
+
+    //01/04
+    public static String startDay() {
+        return "\nBrain Loading... Done!";
+    }
+
+
+    //12/15
     public static void main(String[] args) {
         System.out.println("Java is statically typed, while Javascript is dynamically typed.");
 
@@ -16,11 +24,13 @@ public class Warmups {
 //        System.out.println(userBreakfast);
 
 
-        //01/04
+//        //01/04
+//
+//        String startDay = "\nBrain loading....Done!";
+//
+//        System.out.println(startDay);
 
-        String startDay = "\nBrain loading....Done!";
-
-        System.out.println(startDay);
+        System.out.println(startDay());
 
 
 

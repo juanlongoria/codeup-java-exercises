@@ -14,12 +14,27 @@ public class ControlFlowExercises {
 
         System.out.println();
 
-        int num = 0;
+        int num = 100;
 
         do{
             System.out.println(num);
             num-= 5;
         } while(num >= -10);
+
+        int z = 2;
+
+        do {
+            System.out.println(z);
+            z = (int) Math.pow(z, 2);
+        } while (z <= 1000000);
+
+        for (int t = 100; t >= -10; t -= 5) {
+            System.out.println(t);
+        }
+
+        for (long k = 2; k < 1000000; k *= k) {
+            System.out.println(k);
+        }
 
 
 //        for (int i = 5; i <= 15; i++) {
@@ -59,8 +74,18 @@ public class ControlFlowExercises {
         //3.
         Scanner sc = new Scanner(System.in);
 
+        boolean goOn = true;
 
-
+        while (goOn) {
+            System.out.println("Give me an integer:");
+            int userNum = sc.nextInt();
+            System.out.println("number|squared|cubed\n------|-------|-----");
+            for (int j = 1; j <= userNum; j++) {
+                System.out.printf("%6d|%7d|%5d%n", j, j*j, (int) Math.pow(j, 3));
+            }
+            System.out.println("Wanna play again?");
+            goOn = sc.nextBoolean();
+        }
 
         //4.
         boolean continueGrading = true;

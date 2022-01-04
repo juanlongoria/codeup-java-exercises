@@ -5,11 +5,23 @@ public class Bob {
 
         Boolean confirmation = true;
         Scanner sc = new Scanner(System.in);
+        System.out.println("Hey I'm Bob, have a conversation with me, ask or tell me anything");
+        do {
+            String response = sc.nextLine();
+            if(response.endsWith("?")){
+                System.out.println("Sure.");
+            } else if(response.endsWith("!")){
+                System.out.println("Whoah, chill out!");
+            } else if(response.isEmpty()){
+                System.out.println("Fine. Be that way!");
+            } else if(response.contains("bye")){
+                System.out.println("Bye");
+                confirmation = false;
+            } else {
+                System.out.println("Whatever");
+            }
 
-//        do {
-//            String response =sc.nextLine();
-//            if
-//        }
+        }while(confirmation);
 
 //        String q ="";
 //        String a1 ="Sure";
