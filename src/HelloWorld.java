@@ -157,7 +157,7 @@ public class HelloWorld {
 
 //        System.out.println(Integer.Max_VALUE);
 
-
+        MethodsLecture.leaveTheHouse();
 
 
 

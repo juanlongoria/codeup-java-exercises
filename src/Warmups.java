@@ -16,6 +16,13 @@ public class Warmups {
 //        System.out.println(userBreakfast);
 
 
+        //01/04
+
+        String startDay = "\nBrain loading....Done!";
+
+        System.out.println(startDay);
+
+
 
     }
 }
