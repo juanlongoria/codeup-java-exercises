@@ -1,7 +1,37 @@
 import java.util.Scanner;
 
-
 public class Warmups {
+
+    public class Penguin {
+        String name;
+        int age;
+        int species;
+        int weight;
+        int sex;
+    }
+
+
+    //01/06
+//    Warmup
+//    Create a class named "Penguin"
+//    Give your class the following private fields
+//            Name
+//    Weight
+//            Species
+//    Sex
+//    Give your class the following public methods
+//            getName
+//    getWeight
+//            getSpecies
+//    getSex
+//            setName
+//    setWeight
+//            setSpecies
+//    setSex
+//    Give your class a constructor method
+//            Give your class the following public static methods
+//    canFly (returns false)
+//    areEvil (returns true)
 
     //01/04
     public static String startDay() {
