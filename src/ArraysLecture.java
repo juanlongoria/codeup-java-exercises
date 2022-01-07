@@ -11,9 +11,9 @@ public class ArraysLecture {
         String[] fruits = new String[4];
 
         fruits[0] = "orange";
-        fruits[0] = "apple";
-        fruits[0] = "banana";
-        fruits[0] = "grapefruit";
+        fruits[1] = "apple";
+        fruits[2] = "banana";
+        fruits[3] = "grapefruit";
 
         //Output = null since a String is an object reference, the default value is null.
         System.out.println(fruits[0]);
@@ -23,9 +23,9 @@ public class ArraysLecture {
 
         System.out.println(surveyAnswers.length);
 
-        for (int i = 0; i < fruits.length; i++) {
-            System.out.println(fruits[i]);
-        }
+//        for (int i = 0; i < fruits.length; i++) {
+//            System.out.println(fruits[i]);
+//        }
 
         // ITERATING
 //        for (int i = 0; i < fruits.length; i++) {
