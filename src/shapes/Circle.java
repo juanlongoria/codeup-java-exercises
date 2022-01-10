@@ -4,6 +4,9 @@ public class Circle {
     private double radius;
     public static int count = 0;
 
+    // THE FINAL KEYWORD
+    final public static double PI = Math.PI;
+
     public Circle(double radius) {
         this.radius = radius;
     }
