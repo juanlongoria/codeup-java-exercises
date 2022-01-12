@@ -11,7 +11,7 @@ public class CollectionsLecture {
         ArrayList<String> petNames = new ArrayList<String>();
 
         // .add() - adds an element to the ArrayList.
-        //OVERLOADED METHDO - .add(index, item)
+        //OVERLOADED METHOD - .add(index, item)
         petNames.add("Kali");
         petNames.add("Nikolai");
         petNames.add("Chorizo");
