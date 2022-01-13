@@ -60,8 +60,16 @@ public class Input {
     }
 
     public int getInt() {
-        System.out.println("Please enter a whole number.");
-        int userNum = scanner.nextInt();
+        String userInput = getString("Please enter a whole number.");
+//        System.out.println("Please enter a whole number.");
+        int userNum;
+        try{
+            userNum = Integer.valueOf(userInput);
+        }catch (NumberFormatException nfe) {
+            nfe.printStackTrace();
+            return getInt();
+        }
+//        int userNum = scanner.nextInt();
         System.out.printf("You chose %d", userNum);
         return userNum;
     }
@@ -98,6 +106,16 @@ public class Input {
         return userNum;
     }
 
+    public long convertHexToDecimal() {
+        String userInput = getString("Please enter a hexadecimal number.");
+        long userNum;
+        try {
+            userNum = Long.valueOf(userInput, 16);
+        } catch (NumberFormatException nfe) {
+            nfe.printStackTrace();
 
+        }
+        return convertHexToDecimal();
+    }
 
 }
