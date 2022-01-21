@@ -30,7 +30,7 @@ public class MoviesApplication {
     }
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int option;
         do {
             Input userInput = new Input();

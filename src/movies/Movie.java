@@ -1,18 +1,20 @@
 package movies;
 
 public class Movie {
-    private String Name;
-    private String Movie;
+    private String movieTitle;
+    private String movieCategory;
 
     public Movie(String movieTitle, String movieCategory) {
+        this.movieTitle= movieTitle;
+        this.movieCategory=movieCategory;
 
     }
 
     public String getName() {
-        return Name;
+        return movieTitle;
     }
 
     public String getCategory() {
-        return Movie;
+        return movieCategory;
     }
 }
